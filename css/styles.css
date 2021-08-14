@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+
+h1, h4{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-top: 0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 31px;
+    margin-bottom: 0;
+}
+
+.container{
+    width: 350px;
+    height: 250px;
+    text-align: left;
+    margin: 20px auto;
+    background-color: white;
+    
+}
+
+.team{
+    border-top: solid hsl(0, 78%, 62%);
+    border-style: solid hidden hidden; 
+}
+
+.supervisor{
+    border-top: solid hsl(180, 62%, 55%);
+}
+
+.karma{
+    border-top: solid hsl(34, 97%, 64%);
+}
+
+.calculator{
+    border-top: solid hsl(212, 86%, 64%);
+}
