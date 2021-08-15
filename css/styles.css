@@ -4,9 +4,10 @@ body{
     text-align: center;
     font-weight: 200;
     color: hsl(229, 6%, 66%);
+    margin: 0;
 }
 
-h1, h4{
+h1, h3{
     font-weight: 600;
     color: hsl(234, 12%, 34%);
     margin-top: 0;
@@ -18,13 +19,42 @@ h2{
     margin-bottom: 0;
 }
 
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.left-container{
+    width:430px;
+    align-items: center;
+}
+
+.mid-container{
+    width:430px;
+    padding: 20px;
+} 
+
+.right-container{
+    width:430px;
+    align-items: center;
+}
+
+.icon{
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
 .container{
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
     text-align: left;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: white;
-    
+    box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    position: relative;
 }
 
 .team{
