@@ -19,57 +19,60 @@ h2{
     margin-bottom: 0;
 }
 
-.flex{
-    display: flex;
-    flex-wrap:wrap;
-}
-
-.left-container{
-    width:430px;
-    align-items: center;
-}
-
-.mid-container{
-    width:430px;
-    padding: 20px;
-} 
-
-.right-container{
-    width:430px;
-    align-items: center;
-}
-
 .icon{
     position:absolute;
     bottom: 20px;
     right: 20px;
 }
 
-.container{
-    width: 300px;
-    height: 200px;
+.team{
+    border-top: solid hsl(0, 78%, 62%);
+    width: 350px;
+    height: 250px;
     padding: 30px;
     text-align: left;
-    margin: 10px auto;
+    margin: 20px auto 40px auto;
     background-color: white;
     box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
     border-radius: 5px;
     position: relative;
 }
 
-.team{
-    border-top: solid hsl(0, 78%, 62%);
-    border-style: solid hidden hidden; 
-}
-
 .supervisor{
     border-top: solid hsl(180, 62%, 55%);
+    width: 350px;
+    height: 250px;
+    padding: 30px;
+    text-align: left;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    position: relative;
 }
 
 .karma{
     border-top: solid hsl(34, 97%, 64%);
+    width: 350px;
+    height: 250px;
+    padding: 30px;
+    text-align: left;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    position: relative;
 }
 
 .calculator{
     border-top: solid hsl(212, 86%, 64%);
+    width: 350px;
+    height: 250px;
+    padding: 30px;
+    text-align: left;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    position: relative;
 }
