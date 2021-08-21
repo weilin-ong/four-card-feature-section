@@ -1,3 +1,4 @@
+/* General */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
@@ -7,17 +8,26 @@ body{
     margin: 0;
 }
 
+.heading{
+    color: hsl(234, 12%, 34%);
+}
+
 h1, h3{
     font-weight: 600;
-    color: hsl(234, 12%, 34%);
     margin-top: 0;
 }
 
 h2{
-    font-weight: 400;
-    font-size: 31px;
-    margin-bottom: 0;
+    font-size: 2.4rem;
+    font-weight: 200;
+    margin: 5% 0 1%;
 }
+
+.discription{
+    padding: 1% 31%;
+}
+
+/* Icon */
 
 .icon{
     position:absolute;
@@ -25,54 +35,56 @@ h2{
     right: 20px;
 }
 
-.team{
-    border-top: solid hsl(0, 78%, 62%);
-    width: 350px;
+/* Container box default */
+
+.box{
+    width: 360px;
     height: 250px;
     padding: 30px;
     text-align: left;
-    margin: 20px auto 40px auto;
+    margin: 20px auto;
     background-color: white;
     box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
     border-radius: 5px;
     position: relative;
+}
+
+/* Individual Box */
+
+.team{
+    border-top: solid hsl(0, 78%, 62%);
+    margin: 20px auto 40px auto;
 }
 
 .supervisor{
     border-top: solid hsl(180, 62%, 55%);
-    width: 350px;
-    height: 250px;
-    padding: 30px;
-    text-align: left;
-    margin: 20px auto;
-    background-color: white;
-    box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
-    border-radius: 5px;
-    position: relative;
+    top:25%;   
 }
 
 .karma{
     border-top: solid hsl(34, 97%, 64%);
-    width: 350px;
-    height: 250px;
-    padding: 30px;
-    text-align: left;
-    margin: 20px auto;
-    background-color: white;
-    box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
-    border-radius: 5px;
-    position: relative;
 }
 
 .calculator{
     border-top: solid hsl(212, 86%, 64%);
-    width: 350px;
-    height: 250px;
-    padding: 30px;
-    text-align: left;
-    margin: 20px auto;
-    background-color: white;
-    box-shadow: 0px 10px 20px 2px hsl(229, 6%, 66%);
-    border-radius: 5px;
-    position: relative;
+    top:25%;
+}
+
+/* media screen query */
+
+@media (max-width: 1200px){
+    .supervisor{
+        top:0%;
+    }
+
+    .calculator{
+        top:-100%;
+    }
+}
+
+@media (max-width:992px) {
+    .calculator{
+        top:0;
+    }
+
 }
